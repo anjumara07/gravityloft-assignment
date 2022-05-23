@@ -1,0 +1,37 @@
+.footer{
+   width:80%;
+   margin:auto;
+   display:flex;
+   justify-content:space-between;
+    border-bottom: 1px solid #b6b7b9;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    color:#5C5F62;
+}
+
+.logo1{
+    width:43px;
+    height:42px;
+}
+
+.footer1{
+   width:30%
+}
+.footer2{
+    width:50%;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 40px;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 390px){
+    .footer1{
+        width:25%
+    }
+    .footer2{
+        width:60%;
+    }
+}

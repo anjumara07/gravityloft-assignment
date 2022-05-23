@@ -1,0 +1,49 @@
+.card5{
+   border-bottom: 1px solid rgb(189, 188, 188);
+   width:90%;
+   margin: auto;
+   display: flex;
+   justify-content:space-between;
+   padding:19px 0 12px 0;
+}
+
+.card51{
+   width:90%;
+   margin: auto;
+   display: flex;
+   justify-content:space-between;
+   padding:19px 0 0 0;
+}
+
+.font{
+   font-weight: bold;
+}
+
+.lorem1{
+   border-bottom: 1px solid rgb(189, 188, 188);
+   color:#5C5F62;
+   font-weight: 10;
+   width:90%;
+   margin: auto;
+   padding:15px 0;
+}
+
+.card2{
+   height:550px ;
+   width:80%;
+   margin-bottom:40px;
+   margin-left:10%;
+   display:flex;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 390px){
+   .card5{
+      border-bottom: 1px solid rgb(189, 188, 188);
+      width:90%;
+      margin: auto;
+      display: flex;
+      justify-content:space-between;
+      padding:19px 0 12px 0;
+   }
+}
