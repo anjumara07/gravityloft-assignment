@@ -52,7 +52,7 @@ export const HomePage = ()=>{
 
            <Card5 />
 
-           <Card id='card6' style={{ height:'280px' , width:'80%', marginBottom:'80px',marginLeft:'10%'}}>
+           <Card id='card6' style={{ height:'250px' , width:'80%', marginBottom:'80px',marginLeft:'10%'}}>
                <img src={Capture4} alt="" width="100%" height="100%"/>
            </Card>
         </>

@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Card from '@mui/material/Card';
 import './Card5.css'
 import AddIcon from '@mui/icons-material/Add';
 import MinimizeIcon from '@mui/icons-material/Minimize';
@@ -7,7 +6,7 @@ import MinimizeIcon from '@mui/icons-material/Minimize';
 export function Card5() {
 
   return (
-    <Card style={{ height:'453px' , width:'80%',marginBottom:'70px',marginLeft:'10%'}}>
+    <div className="cardBox">
         <div className='card51 font'>
             <div className='font'>What is Techrefic ?</div>
             <div><MinimizeIcon/> </div>
@@ -32,6 +31,6 @@ export function Card5() {
         <div className='card5 font'>
             What is Techrefic ? <AddIcon/>
         </div>
-    </Card>
+    </div>
   );
 }

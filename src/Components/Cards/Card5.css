@@ -7,6 +7,13 @@
    padding:19px 0 12px 0;
 }
 
+.cardBox{
+   height:453px ; 
+   width:80%;
+   margin-bottom:100px;
+   margin-left:10%;
+}
+
 .card51{
    width:90%;
    margin: auto;
@@ -36,6 +43,17 @@
    display:flex;
 }
 
+.cardBox1{
+   width:80%;
+   margin-bottom:70px;
+   margin-left:10%;
+   display:flex;
+}
+
+.cardPic{
+   width:45%;
+}
+
 
 @media only screen and (min-width: 0px) and (max-width: 390px){
    .card5{
@@ -45,5 +63,16 @@
       display: flex;
       justify-content:space-between;
       padding:19px 0 12px 0;
+   }
+
+   .cardBox1{
+      width:100%;
+      margin-bottom:40px;
+      display:flex;
+   }
+
+   .cardPic{
+      width:55%;
+      height:650px
    }
 }

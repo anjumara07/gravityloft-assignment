@@ -12,10 +12,10 @@ export function Card3() {
   const theme = useTheme();
 
   return (
-    <Card sx={{ display: 'flex' }} style={{width:'80%',marginBottom:'40px',marginLeft:'10%' , display:'flex'}}>
-        <Box style={{width:'45%', marginRight:'8%'}}>
+    <div className="cardBox1">
+        <div className="cardPic" style={{marginRight:'8%'}}>
             <img src={Capture1} alt="" width="100%" height="100%"/>
-        </Box>
+        </div>
         <Box style={{width:'40%',marginTop:"20px"}}>
             <CardContent>
                 <Typography variant="h5" component="div">
@@ -31,6 +31,6 @@ export function Card3() {
                 </Typography>
             </CardContent> 
         </Box>
-    </Card>
+    </div>
   );
 }

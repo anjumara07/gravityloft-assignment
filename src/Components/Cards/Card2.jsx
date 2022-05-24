@@ -9,7 +9,7 @@ import head2 from '../pictures/head2.png'
 export function Card2() {
 
   return (
-    <div style={{width:'80%',marginBottom:'40px',marginLeft:'10%' , display:'flex'}}>
+    <div className="cardBox1">
         <Box style={{width:'40%', marginLeft:'6%',marginTop:"20px"}}>
             <CardContent>
                 <Typography variant="h5" component="div">
@@ -25,9 +25,9 @@ export function Card2() {
                 </Typography>
             </CardContent> 
         </Box>
-        <Box style={{width:'45%',marginLeft:'11%'}}>
+        <div className="cardPic" style={{marginLeft:'11%'}}>
             <img src={Capture3} alt="" width="100%" height="100%"/>
-        </Box>
+        </div>
     </div>
   );
 }

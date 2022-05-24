@@ -12,7 +12,7 @@ export function Card4() {
   const theme = useTheme();
 
   return (
-    <Card sx={{ display: 'flex' }} style={{width:'80%', marginBottom:'40px',marginLeft:'10%' , display:'flex'}}>
+    <div className="cardBox1">
         <Box style={{width:'40%', marginLeft:'6%', marginTop:"20px"}}>
             <CardContent>
                 <Typography variant="h5" component="div">
@@ -28,9 +28,9 @@ export function Card4() {
                 </Typography>
             </CardContent> 
         </Box>
-        <Box style={{width:'45%',marginLeft:'103px'}}>
+        <div className="cardPic" style={{marginLeft:'103px'}}>
             <img src={Capture2} alt="" width="100%" height="100%"/>
-        </Box>
-    </Card>
+        </div>
+    </div>
   );
 }
